@@ -1,12 +1,13 @@
 import { MantineProvider } from "@mantine/core"
 import Splash from "./pages/Splash"
 import "@mantine/core/styles.css";
+import Home from "./pages/Home";
 
 function App() {
 
   return (
-    <MantineProvider>
-      <Splash/>
+    <MantineProvider defaultColorScheme="dark">
+      <Home/>
     </MantineProvider>
   )
 }
